@@ -275,11 +275,11 @@ export default function NettarePage() {
             <div className="flex justify-center lg:justify-end">
               <div className="relative rounded-3xl overflow-hidden border border-white/10 shadow-2xl"
                 style={{ width: '100%', maxWidth: '340px', aspectRatio: '9/16', background: '#111111' }}>
-                <video
-                  src="/cases/nettare/video.mp4"
-                  controls
-                  playsInline
-                  className="w-full h-full object-cover"
+                <iframe
+                  src="https://player.vimeo.com/video/1204330858?title=0&byline=0&portrait=0&badge=0"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowFullScreen
+                  className="absolute inset-0 w-full h-full"
                 />
               </div>
             </div>
